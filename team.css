@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 11pt;
+    vertical-align: baseline;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+	font-size: 18pt;
+	margin-bottom: 15px;
+}
+
+ul li {
+    padding: 3px;
+}
+
+ul.popup li:before {
+    content:  '—';
+    position: relative;
+    padding: 5px;
+}
+
+#map {
+    width: 100%;
+    height: 90%;
+}
+
+#footer {
+    width: 100%; 
+    height: 10%;
+    background-image: url('./img/footer.gif');
+    background-repeat:repeat;
+    position: absolute;
+    z-index: 300;
+}
+
+#footer-inner {
+    width: 1224px;
+    height: 55px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#logo {
+    background: url('./img/sprite.png');
+    display: inline-block;
+    float: left;
+    width: 98px;
+    height: 47px;
+}
+
+#resume {
+    background: url('./img/sprite.png') left -48px no-repeat;
+    width: 216px;
+    height: 100%;
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+    text-indent: 500px;
+    overflow: hidden;
+    margin: -5px -13px 0 0;
+}
+
+#resume:hover{
+    background-position: 0 -120px;
+}
+
+#resume:active{
+    background-position: 0 -192px;
+}
+
+#social {
+    margin: 20px 0 0 0;
+    display: inline-block;
+    float: left;
+}
+
+#social-tweet {
+    margin: 0 0 0 150px;
+    float: left;
+}
+
+#social-vk {
+    float: left;
+}
+
+#geonya-ava {
+    background-image: url('./img/photos/a.geonya_ava.jpg');
+}
+
+#lutsyk-ava {
+    background-image: url('./img/photos/d.lutsyk_ava.jpg');
+
+}
+
+#onikienko-ava {
+    background-image: url('./img/photos/b.onikienko_ava.jpg');
+}
+
+#gajdamak-ava {
+    background-image: url('./img/photos/p.gajdamak_ava.jpg');
+}
+
+#kim-ava {
+    background-image: url('./img/photos/a.kim_ava.jpg');
+}
+
+#kim-ava {
+    background-image: url('./img/photos/a.kim_ava.jpg');
+}
+
+#borodatov-ava {
+    background-image: url('./img/photos/a.borodatov_ava.jpg');
+}
+
+#voloshyuk-ava {
+    background-image: url('./img/photos/ja.voloshyuk_ava.jpg');
+}
+
+#new-ava {
+    background-image: url('./img/photos/new_ava.jpg');
+}
+
+a.ava {
+    width: 50px; 
+    height: 50px; 
+    margin-left: 5px; 
+    display: inline-block;
+}
+ul.command li {
+}
+
+li.geonya{
+    display: list-item;
+}
+li.lutsyk{
+    display: None;
+}
+li.onikienko{
+    display: None;
+}
+li.gajdamak{
+    display: None;
+}
+li.kim{
+    display: None;
+}
+li.borodatov{
+    display: None;
+}
+li.voloshyuk{
+    display: None;
+}
+
+li.card{
+}
+
+.member-name{
+}
+
+.member-info{
+}
+
+.member-photo{
+    display: inline-block;
+    width: 110px; 
+    height: 110px; 
+}
