@@ -95,6 +95,13 @@ ul.popup li:before {
     float: left;
 }
 
+a.ava {
+    width: 50px; 
+    height: 50px; 
+    margin-left: 5px; 
+    display: inline-block;
+}
+
 #geonya-ava {
     background-image: url('./img/photos/a.geonya_ava.jpg');
 }
@@ -132,19 +139,13 @@ ul.popup li:before {
     background-image: url('./img/photos/new_ava.jpg');
 }
 
-a.ava {
-    width: 50px; 
-    height: 50px; 
-    margin-left: 5px; 
-    display: inline-block;
-}
 ul.command li {
 }
 
 li.geonya{
     display: list-item;
 }
-li.lutsyk{
+li.lutsyk {
     display: None;
 }
 li.onikienko{
@@ -162,8 +163,14 @@ li.borodatov{
 li.voloshyuk{
     display: None;
 }
+li.new{
+    display: None;
+}
 
 li.card{
+}
+
+.info-block{
 }
 
 .member-name{
