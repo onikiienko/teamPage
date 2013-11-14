@@ -21,12 +21,6 @@ ul li {
     padding: 3px;
 }
 
-ul.popup li:before {
-    content:  '—';
-    position: relative;
-    padding: 5px;
-}
-
 #map {
     width: 100%;
     height: 90%;
@@ -35,7 +29,7 @@ ul.popup li:before {
 #footer {
     width: 100%; 
     height: 10%;
-    background-image: url('./img/footer.gif');
+    background-image: url('../img/footer.gif');
     background-repeat:repeat;
     position: absolute;
     z-index: 300;
@@ -53,7 +47,7 @@ ul.popup li:before {
 }
 
 #logo {
-    background: url('./img/sprite.png');
+    background: url('../img/sprite.png');
     display: inline-block;
     float: left;
     width: 98px;
@@ -61,7 +55,7 @@ ul.popup li:before {
 }
 
 #resume {
-    background: url('./img/sprite.png') left -48px no-repeat;
+    background: url('../img/sprite.png') left -48px no-repeat;
     width: 216px;
     height: 100%;
     display: inline-block;
@@ -95,88 +89,18 @@ ul.popup li:before {
     float: left;
 }
 
-a.ava {
+.ava {
     width: 50px; 
     height: 50px; 
     margin-left: 5px; 
     display: inline-block;
 }
 
-#geonya-ava {
-    background-image: url('./img/photos/a.geonya_ava.jpg');
-}
-
-#lutsyk-ava {
-    background-image: url('./img/photos/d.lutsyk_ava.jpg');
-
-}
-
-#onikienko-ava {
-    background-image: url('./img/photos/b.onikienko_ava.jpg');
-}
-
-#gajdamak-ava {
-    background-image: url('./img/photos/p.gajdamak_ava.jpg');
-}
-
-#kim-ava {
-    background-image: url('./img/photos/a.kim_ava.jpg');
-}
-
-#kim-ava {
-    background-image: url('./img/photos/a.kim_ava.jpg');
-}
-
-#borodatov-ava {
-    background-image: url('./img/photos/a.borodatov_ava.jpg');
-}
-
-#voloshyuk-ava {
-    background-image: url('./img/photos/ja.voloshyuk_ava.jpg');
-}
-
-#new-ava {
-    background-image: url('./img/photos/new_ava.jpg');
-}
-
-ul.command li {
-}
-
-li.geonya{
-    display: list-item;
-}
-li.lutsyk {
-    display: None;
-}
-li.onikienko{
-    display: None;
-}
-li.gajdamak{
-    display: None;
-}
-li.kim{
-    display: None;
-}
-li.borodatov{
-    display: None;
-}
-li.voloshyuk{
-    display: None;
-}
-li.new{
-    display: None;
-}
-
-li.card{
-}
-
 .info-block{
-}
-
-.member-name{
-}
-
-.member-info{
+    display: inline-block;
+    width: 300px;
+    margin-left: 15px;
+    vertical-align: top;
 }
 
 .member-photo{
