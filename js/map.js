@@ -24,29 +24,4 @@ L.onLoad(function () {
 });
 
 
-function createMarker(lon,lat, headerContent, bodyContent, popupWidth, popupHeight){
-	L.marker([lon,lat]).addTo(map).bindPopup(
-		{
-			header : headerContent, 
-			body : bodyContent
-		}, 
-		{ 
-			minWidth : popupWidth, 
-			maxHeight : popupHeight 
-		}
-	).openPopup();	
-}
 
-function putEvents(){
-	for (var i = 0; i < members.length; i++) {
-		L.DomEvent.on(document.getElementById(members[i] + '-menu'), 'click', function(e){
-			for (var j = 0; j < members.length; j++) {
-	    		document.getElementById(members[j] + '-card').style.display = 'None';
-			}
-
-			//taking name from output, for example "d.lutsyk"
-			var member = e.target.id.slice(0,-5);
-			document.getElementById(member + '-card').style.display = 'list-item';
-		})
-	}	
-}
