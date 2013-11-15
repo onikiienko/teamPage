@@ -44,7 +44,7 @@ function newMember(memberName,name, category, specials){
 }
 
 function createMarker(lon,lat, headerContent, bodyContent, popupWidth, popupHeight){
-    L.marker([lon,lat]).addTo(map).bindPopup(
+    var nextMarker = L.marker([lon,lat]).addTo(map).bindPopup(
         {
             header : headerContent, 
             body : bodyContent
@@ -53,10 +53,11 @@ function createMarker(lon,lat, headerContent, bodyContent, popupWidth, popupHeig
             minWidth : popupWidth, 
             maxHeight : popupHeight 
         }
-    ).openPopup();  
+    );
+    return nextMarker;
 }
 
-function putEvents(){
+function setEvents(){
     for (var i = 0; i < members.length; i++) {
         L.DomEvent.on(document.getElementById(members[i] + '-menu'), 'click', function(e){
             for (var j = 0; j < members.length; j++) {

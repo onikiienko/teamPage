@@ -17,9 +17,9 @@ L.onLoad(function () {
 	createMarker(-18.14585, -13.35937, header2, body2, 430, 300);
 	createMarker(6.83917, 22.85156, header4, body4, 430, 300);
 	createMarker(-14.94478, 20.74219, header5, body5, 430, 300);
-	createMarker(20.30342, -16.17187, header3, body3, 490, 300);
-
-	putEvents();
+	var nextMarker = createMarker(20.30342, -16.17187, header3, body3, 490, 300);
+    nextMarker.on('popupopen', setEvents);  
+	//putEvents();
 	
 });
 
