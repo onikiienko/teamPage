@@ -7,7 +7,7 @@ commandCards.innerText = name;
 
 commandMenu = document.createElement('div');
 commandMenu.id = "member-menu";
-commandMenu.innerHTML = '<h2>Команда</h2>';
+commandMenu.innerHTML = '<h1 class="dg-popup-header-title">Команда</h1>';
 
 newMember("a.geonya", "Андрей", "разработчики", "может не спать 2 суток");
 newMember("d.lutsyk", "Дмитрий", "разработчики", "спокойствие");
@@ -18,7 +18,7 @@ newMember("ja.voloshyuk", "Ярослав", "разработчики", "пов�
 newMember("a.kim", "Алексей", "добрая и общительная поддержка", "железные нервы");
 newMember("new", "Новенький", "разработчики", "<a href='http://job.2gis.ru/vacancy/kiev/id/474/'>тут</a>");
 
-var header1 = '<h2>Процессы</h2>';
+var header1 = '<h1 class="dg-popup-header-title">Процессы</h1>';
 
 var body1 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Живем Scrum’ом (планирования, презентации, ретро, дейли-митинги) </li> \
@@ -27,7 +27,7 @@ var body1 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Дышим автоматизацией (Mocha, Selenium WebDriver) </li> \
 </ul>';
 
-var header2 = '<h2>Технологии</h2>'
+var header2 = '<h1 class="dg-popup-header-title">Технологии</h1>'
 
 var body2 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">nodejs, javascript, html5, css3 </li> \
@@ -40,7 +40,7 @@ var header3 = commandMenu;
 
 var body3 = commandCards;
 
-var header4 = '<h2>Задачи</h2>';
+var header4 = '<h1 class="dg-popup-header-title">Задачи</h1>';
 
 var body4 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Колбасим API карты 2ГИС </li> \
@@ -51,7 +51,7 @@ var body4 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Ускоряем отрисовки в браузерах и скорость загрузки API карт 2ГИС </li> \
 </ul>';
 
-var header5 = '<h2>Плюшки</h2>';
+var header5 = '<h1 class="dg-popup-header-title">Плюшки</h1>';
 
 var body5 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Двухэтажный офис на последних этажах высотного здания с замечательным видом на центр Киева </li> \
