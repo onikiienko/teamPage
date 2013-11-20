@@ -93,6 +93,7 @@ ul li {
     height: 50px; 
     margin-left: 5px; 
     display: inline-block;
+    cursor: pointer;
 }
 
 .info-block{
