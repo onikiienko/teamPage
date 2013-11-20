@@ -11,7 +11,7 @@ commandMenu.innerHTML = '<h1 class="dg-popup-header-title">Команда</h1>';
 
 newMember("a.geonya", "Андрей", "разработчики", "может не спать 2 суток");
 newMember("d.lutsyk", "Дмитрий", "разработчики", "спокойствие богомола");
-newMember("b.onikienko", "Богдан", "тестировщики", "взял мак в ипотеку");
+newMember("b.onikienko", "Богдан", "тестировщики", "взял мак в кредит");
 newMember("p.gajdamak", "Павел", "тестировщики", "повеливает котиками");
 newMember("a.borodatov", "Антон", "разработчики", "git pull --jack daniels --repeat");
 newMember("ja.voloshyuk", "Ярослав", "разработчики", "знает дорогу в оперетту");
