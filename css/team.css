@@ -69,17 +69,18 @@ ul li {
 }
 
 #social {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 100px;
     display: inline-block;
     float: left;
 }
 
 #social-tweet {
-    margin: 0 0 0 150px;
+    margin: 0 10px 0 10px;
     float: left;
 }
 
 #social-vk {
+    margin: 0 10px 0 10px;
     float: left;
 }
 
