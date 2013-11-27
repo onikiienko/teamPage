@@ -3,10 +3,12 @@ var map,
 
 L.onLoad(function () {
 	map = new L.Map('map', {
-    	"center": new L.LatLng(15, 0),
+    	"center": new L.LatLng(15.28419, 4.21875),
     	"zoom": 4,
     	"dgGeoclicker": false
 	});
+
+	map.setMaxBounds([[85, -180], [-85, 180]]);
 
 	L.tileLayer('http://api.2gis.ru/assets/frontend/api/api_vacancy/tiles/{z}/{x}/{y}.jpg', {
 		maxZoom: 5,
