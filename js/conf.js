@@ -12,7 +12,7 @@ commandMenu.innerHTML = '<h1 class="dg-popup-header-title">Команда</h1>';
 newMember("a.geonya", "Андрей", "разработчики", "может не спать 2 суток");
 newMember("d.lutsyk", "Дмитрий", "разработчики", "спокойствие богомола");
 newMember("b.onikienko", "Богдан", "тестировщики", "взял мак в ипотеку");
-newMember("p.gajdamak", "Павел", "тестировщики", "повеливает релизами");
+newMember("p.gajdamak", "Павел", "тестировщики", "повелевает релизами");
 newMember("a.borodatov", "Антон", "разработчики", "git pull --jack daniels --repeat");
 newMember("ja.voloshyuk", "Ярослав", "разработчики", "знает дорогу в оперетту");
 newMember("a.kim", "Алексей", "добрая и общительная поддержка", "железные нервы");
@@ -48,7 +48,7 @@ var body4 = '<ul class="building-callout__list"> \
 <li class="building-callout__list-item">Работаем с Leaflet</li> \
 <li  class="building-callout__list-item">Интегрируемся с внутренними сервисами компании </li> \
 <li class="building-callout__list-item">Ворочаем кучей данных на клиенте </li> \
-<li class="building-callout__list-item">Ускоряем отрисовку в браузерах и скорость загрузки API карт </li> \
+<li class="building-callout__list-item">Ускоряем отрисовку и загрузку API карт в браузерах</li> \
 </ul>';
 
 var header5 = '<h1 class="dg-popup-header-title">Плюшки</h1>';
