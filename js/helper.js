@@ -44,7 +44,7 @@ function newMember(memberName,name, category, specials){
 }
 
 function createMarker(lon,lat, headerContent, bodyContent, popupWidth, popupHeight){
-    var nextMarker = L.marker([lon,lat]).addTo(map).bindPopup(
+    var nextMarker = DG.marker([lon,lat]).addTo(map).bindPopup(
         {
             header : headerContent, 
             body : bodyContent
@@ -59,7 +59,7 @@ function createMarker(lon,lat, headerContent, bodyContent, popupWidth, popupHeig
 
 function setEvents(){
     for (var i = 0; i < members.length; i++) {
-        L.DomEvent.on(document.getElementById(members[i] + '-menu'), 'click', function(e){
+        DG.DomEvent.on(document.getElementById(members[i] + '-menu'), 'click', function(e){
             for (var j = 0; j < members.length; j++) {
                 document.getElementById(members[j] + '-card').style.display = 'None';
             }
